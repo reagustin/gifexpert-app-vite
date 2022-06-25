@@ -1,4 +1,4 @@
-# Creamos el archivo de Markdown.
+# Creamos el archivo de Markdown
 
 # Gif expert app
 
