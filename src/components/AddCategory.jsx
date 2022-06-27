@@ -3,7 +3,7 @@ import { useState } from "react"
 
 export const AddCategory = ({onNewCategory}) => {
 
-    const [inputValue, setInputValue] = useState('Saint Seiya')
+    const [inputValue, setInputValue] = useState('')
 
     
 
