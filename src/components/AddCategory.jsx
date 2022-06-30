@@ -19,14 +19,14 @@ export const AddCategory = ({onNewCategory}) => {
         onNewCategory( inputValue.trim() );
         setInputValue('');
     }
-
+// el onSubmit reacciona con mi enter, y envia el texto del input value.
   return (
-    <form onSubmit={  onSubmit } aria-label="form">
+    <form onSubmit={  onSubmit } aria-label="form">   
         <input
             type="text"
             placeholder="Buscar GIFs"
             value={inputValue}
-            onChange={ onInputChange }
+            onChange={ onInputChange } //actualiza a medida que escribo en el textbox
         />
     </form>
   )
